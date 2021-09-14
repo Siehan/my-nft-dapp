@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Box, Button, Container, Image, Heading, Stack, Text } from "@chakra-ui/react";
 import logo512 from "../images/logo512.png";
 import SlideFadeOnScroll from "./SlideFadeOnScroll";

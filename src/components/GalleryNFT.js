@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Box, Center, Container, Heading, Image, Text } from "@chakra-ui/react";
 import crane from "../images/crane.png";
 import Navigation from "./Navigation";

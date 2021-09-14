@@ -1,4 +1,5 @@
 import "./App.css";
+import * as React from "react";
 import LandingPage from "./components/LandingPage";
 
 // 1. import `ChakraProvider` component

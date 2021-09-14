@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Box, Button, Container, Heading, Image, Text, useDisclosure } from "@chakra-ui/react";
 import receipt from "../images/receipt.png";
 import Form from "./Form";

@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Box, Container, Image, Heading, Stack, Text } from "@chakra-ui/react";
 import create_your_nft from "../images/create_your_nft.jpeg";
 import SlideFadeOnScroll from "./SlideFadeOnScroll";

@@ -1,3 +1,4 @@
+import * as React from "react";
 import Icon from "@chakra-ui/icon";
 import social_media3 from "../images/social_media3.jpg";
 import { Box, Button, Container, Heading, Image, Link as ChakraLink } from "@chakra-ui/react";

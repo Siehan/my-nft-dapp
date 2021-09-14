@@ -1,8 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-new-object */
-//import * as React from "react";
+import * as React from "react";
 
-// SI PROBLEME COMMENTER A PARTIR DE LA
 import { pinJSONToIPFS } from "./pinata.js";
 require("dotenv").config();
 const alchemyKey = process.env.REACT_APP_ALCHEMY_KEY;
@@ -86,8 +85,6 @@ export const getCurrentWalletConnected = async () => {
     };
   }
 };
-
-// SI PROBLEME COMMENTER A PARTIR DE LA
 
 async function loadContract() {
   return new web3.eth.Contract(contractABI, contractAddress);

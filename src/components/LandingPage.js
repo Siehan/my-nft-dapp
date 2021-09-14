@@ -1,3 +1,4 @@
+import * as React from "react";
 import Navigation from "./Navigation";
 import Header from "./Header";
 import Home from "./Home";

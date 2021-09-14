@@ -1,3 +1,4 @@
+import * as React from "react";
 import "../index.css";
 import { useEffect, useState } from "react";
 import { Box, Button, Container, Heading, Image, Text } from "@chakra-ui/react";
