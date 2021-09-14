@@ -1,7 +1,7 @@
 import * as React from "react";
 import Icon from "@chakra-ui/icon";
 import social_media3 from "../images/social_media3.jpg";
-import { Box, Button, Container, Heading, Image, Link as ChakraLink } from "@chakra-ui/react";
+import { Box, Button, Container, Heading, Image, Link } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 import Navigation from "./Navigation";
 import SlideFadeOnScroll from "./SlideFadeOnScroll";
@@ -47,7 +47,7 @@ function SocialMediaPage() {
 
               <Box pt={20} pb={15}>
                 {socialAccounts.map((item, index) => (
-                  <ChakraLink
+                  <Link
                     href={item.path}
                     aria-label={item.title}
                     mx={6}
@@ -58,7 +58,7 @@ function SocialMediaPage() {
                     <Button aria-label={item.title} bg="transparent" boxSize="55" m={50}>
                       <Icon as={item.Icon} boxSize="75" />
                     </Button>
-                  </ChakraLink>
+                  </Link>
                 ))}
               </Box>
             </Box>
