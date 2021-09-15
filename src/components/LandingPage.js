@@ -1,7 +1,6 @@
 import * as React from "react";
 import Navigation from "./Navigation";
 import Header from "./Header";
-import Home from "./Home";
 import About from "./About";
 import CreateYourNFT from "./CreateYourNFT";
 import GalleryNFT from "./GalleryNFT";
@@ -15,7 +14,6 @@ const LandingPage = () => {
     <>
       <Navigation />
       <Header />
-      <Home />
       <About />
       <CreateYourNFT />
       <GalleryNFT />

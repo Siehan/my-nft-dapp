@@ -36,15 +36,7 @@ function SocialMediaPage() {
             </Heading>
 
             <Box align="center" borderRadius="md" boxShadow="xl" p={10} pb={20} overflow="hidden">
-              <Image
-                src={social_media3}
-                alt="Social media3"
-                borderRadius="3xl"
-                placeholder={"blurred"}
-                width={600}
-                height={400}
-              />
-
+              <Image src={social_media3} alt="Social media3" borderRadius="3xl" width={581} height={400} />
               <Box pt={20} pb={15}>
                 {socialAccounts.map((item, index) => (
                   <Link

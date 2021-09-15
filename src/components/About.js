@@ -32,8 +32,7 @@ const AboutPage = () => {
                   alt="Sylvie and computer"
                   width={500}
                   height={500}
-                  placeholder={"blurred"}
-                  imgStyle={{ borderRadius: "0.8%" }}
+                  borderRadius="2xl"
                 />
               </Box>
 

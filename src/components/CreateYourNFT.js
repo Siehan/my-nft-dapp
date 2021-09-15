@@ -88,9 +88,9 @@ const CreateYourNFT = () => {
               CREATE YOUR NFT
             </Heading>
 
-            <Box align="center" borderRadius="md" boxShadow="xl" pt={20} pb={20} overflow="hidden">
+            <Box align="center" borderRadius="md" boxShadow="xl" pt={10} pb={10} overflow="hidden">
               <Box pb={10}>
-                <Image src={wallet} alt="wallet" width="400" height="500" placeholder={"blurred"} />
+                <Image src={wallet} alt="wallet" width="300" height="400" />
               </Box>
               <div className="CreateYourNFT">
                 <Text fontSize={30} mb={10} textAlign="center">

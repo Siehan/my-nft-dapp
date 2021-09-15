@@ -28,9 +28,9 @@ const Receipt = () => {
               RECEIPT
             </Heading>
 
-            <Box align="center" borderRadius="md" boxShadow="xl" pt={20} pb={20} overflow="hidden">
+            <Box align="center" borderRadius="md" boxShadow="xl" p={10} pb={20} overflow="hidden">
               <Box pb={10}>
-                <Image align="center" src={receipt} alt="receipt" width="400" height="500" placeholder={"blurred"} />
+                <Image align="center" src={receipt} alt="receipt" width="300" height="400" />
               </Box>
 
               <Text fontSize={25} mb={10} textAlign="center">

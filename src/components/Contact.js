@@ -29,14 +29,7 @@ const ContactPage = () => {
 
             <Box align="center" borderRadius="md" boxShadow="xl" p={10} pb={20} overflow="hidden">
               <Box pb={10}>
-                <Image
-                  src={icon_contact}
-                  alt="icon contact"
-                  imgStyle={{ borderRadius: "1%" }}
-                  width="400"
-                  height="500"
-                  placeholder={"blurred"}
-                />
+                <Image src={icon_contact} alt="icon contact" width="300" height="400" />
               </Box>
 
               <Box>

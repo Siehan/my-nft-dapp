@@ -27,14 +27,7 @@ const GalleryNFT = () => {
 
             <Box align="center" borderRadius="md" boxShadow="xl" p={10} pb={20} overflow="hidden">
               <Box pb={10}>
-                <Image
-                  src={crane}
-                  alt="icon contact"
-                  imgStyle={{ borderRadius: "1%" }}
-                  width={500}
-                  height={600}
-                  placeholder={"blurred"}
-                />
+                <Image src={crane} alt="icon contact" borderRadius="2xl" width={512} height={512} />
               </Box>
               <Center>
                 <Text fontSize={30} mb={10} textAlign="center">
